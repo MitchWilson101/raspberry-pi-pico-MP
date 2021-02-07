@@ -1,5 +1,5 @@
 from time import sleep
-
+import  machine # I found that this needs to be added 7th Feb 2021 when this is run from a Raspberrypi
 # Get the temperature from the internal RP2040 temperature sensor.
 Sensor_Temp = machine.ADC(4)
 
